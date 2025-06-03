@@ -1,40 +1,59 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-top: 5px solid #EA1D2C; /* Vermelho iFood */
+}
+
+h2 {
+  text-align: center;
+  color: #EA1D2C;
+  margin-bottom: 20px;
 }
 
 input {
   width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
   box-sizing: border-box;
 }
 
 button {
   width: 100%;
-  padding: 10px;
-  background-color: #28a745;
+  padding: 12px;
+  background-color: #EA1D2C;
   color: white;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  border-radius: 4px;
+  font-size: 15px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #c21824;
 }
 
 #resultado {
-  margin-top: 15px;
+  margin-top: 20px;
   font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
 }
